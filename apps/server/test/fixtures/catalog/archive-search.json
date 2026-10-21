@@ -1,0 +1,136 @@
+{
+ "responseHeader": {
+  "status": 0,
+  "QTime": 199,
+  "params": {
+   "query": "collection:netlabels AND mediatype:audio AND licenseurl:*creativecommons.org* AND subject:(ambient OR chillout) AND NOT collection:(78rpm OR georgeblood)",
+   "qin": "collection:netlabels AND mediatype:audio AND licenseurl:(*creativecommons.org*) AND subject:(ambient OR chillout) AND NOT collection:(78rpm OR georgeblood)",
+   "fields": "identifier,title,creator,licenseurl,subject,date,downloads,language",
+   "wt": "json",
+   "sort": "downloads desc",
+   "rows": 4,
+   "start": 0
+  }
+ },
+ "response": {
+  "numFound": 14738,
+  "start": 0,
+  "docs": [
+   {
+    "creator": "Various",
+    "date": "2007-02-26T00:00:00Z",
+    "downloads": 317084,
+    "identifier": "ca015_va_cs",
+    "licenseurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "subject": [
+     "illogical",
+     "eclectic",
+     "noise",
+     "abstract",
+     "free improvisation",
+     "dark ambient",
+     "ambient",
+     "industrial",
+     "electronica",
+     "field recordings",
+     "glitch",
+     "microsound",
+     "montage",
+     "psychedelic",
+     "psy-trance",
+     "soundscape",
+     "sound art",
+     "strange",
+     "other",
+     "clinical"
+    ],
+    "title": "Various - Clinical Sounds - Vol.1 (ca015)"
+   },
+   {
+    "creator": "Various",
+    "date": "2008-12-31T00:00:00Z",
+    "downloads": 281505,
+    "identifier": "ca200_cjazz",
+    "licenseurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "subject": [
+     "jazz",
+     "free jazz",
+     "avant-garde",
+     "free improv",
+     "structural improv",
+     "experimental",
+     "improvisation",
+     "electronic",
+     "big dub",
+     "sound textures",
+     "medusada",
+     "ambient",
+     "minimalist pop",
+     "jazzy moods",
+     "heaviness",
+     "ritual electronic",
+     "progressive",
+     "jazz-rock",
+     "instrumental",
+     "modern jazz",
+     "modern classical",
+     "contemporary",
+     "new line jazz",
+     "psychedelic",
+     "eclectic",
+     "psychedelic improvised",
+     "intuition improvisation",
+     "extended techniques",
+     "nu-jazz",
+     "jazz-core",
+     "punk",
+     "noisy free jazz",
+     "magical unicellular music",
+     "freestyle",
+     "live manipulation",
+     "musique-concrete",
+     "funk",
+     "electroacoustic",
+     "tape recorders",
+     "neo-primitivism",
+     "ragatronica",
+     "jam band",
+     "boredom",
+     "illogical",
+     "unclassable",
+     "indefinable",
+     "other"
+    ],
+    "title": "Various - Clinical Jazz (ca200)"
+   },
+   {
+    "creator": "E. Davydov",
+    "date": "2011-04-05T00:00:00Z",
+    "downloads": 266471,
+    "identifier": "pcr089EmilDavydov-Sketches",
+    "licenseurl": "http://creativecommons.org/licenses/by-nd/3.0/de/",
+    "subject": [
+     "Pharmacom Records",
+     "Experimental",
+     "Classic",
+     "Ambient"
+    ],
+    "title": "[PCR089] Emil Davydov - Sketches"
+   },
+   {
+    "creator": "Poodleplay Arkestra",
+    "date": "2012-08-27T00:00:00Z",
+    "downloads": 262065,
+    "identifier": "PoodleplayArkestra-TheoryOfColour",
+    "licenseurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "subject": [
+     "poodleplay arkestra",
+     "bfw",
+     "theory of colour",
+     "ambient, experimental"
+    ],
+    "title": "Theory Of Colour"
+   }
+  ]
+ }
+}

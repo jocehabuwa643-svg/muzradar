@@ -1,0 +1,27 @@
+{
+  "name": "muzradar",
+  "private": true,
+  "description": "МУЗРАДАР — гео-социальная сеть и музыкальный радар",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev:server": "npm run dev -w @muzradar/server",
+    "dev:mobile": "npm run start -w @muzradar/mobile",
+    "tunnel:up": "node scripts/tunnel.mjs up",
+    "tunnel:down": "node scripts/tunnel.mjs down",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  },
+  "overrides": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-test-renderer": "19.2.3"
+  }
+}

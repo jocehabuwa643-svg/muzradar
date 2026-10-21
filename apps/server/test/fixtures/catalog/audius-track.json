@@ -1,0 +1,43 @@
+{
+ "data": {
+  "id": "YlRbOJ",
+  "title": "Dream",
+  "duration": 162,
+  "genre": "Dubstep",
+  "mood": "Aggressive",
+  "tags": "heavy",
+  "bpm": 145,
+  "isrc": null,
+  "license": null,
+  "release_date": "2026-09-11T13:54:42.449643Z",
+  "play_count": 622,
+  "permalink": "/kosmixsound/dream",
+  "is_streamable": true,
+  "is_stream_gated": false,
+  "access": {
+   "stream": true,
+   "download": true
+  },
+  "preview": null,
+  "preview_cid": null,
+  "allowed_api_keys": null,
+  "is_available": true,
+  "is_delete": false,
+  "artwork": {
+   "150x150": "https://val011.open-audio-validator.com/content/baeaaaiqseaybftm4hvadnzbz7s2vqcsfyury7ltisi56uq6j6y7ajnnxc72pq/150x150.jpg",
+   "480x480": "https://val011.open-audio-validator.com/content/baeaaaiqseaybftm4hvadnzbz7s2vqcsfyury7ltisi56uq6j6y7ajnnxc72pq/480x480.jpg",
+   "1000x1000": "https://val011.open-audio-validator.com/content/baeaaaiqseaybftm4hvadnzbz7s2vqcsfyury7ltisi56uq6j6y7ajnnxc72pq/1000x1000.jpg",
+   "mirrors": [
+    "https://audius-creator-8.theblueprint.xyz",
+    "https://val009.open-audio-validator.com",
+    "https://v.monophonic.digital"
+   ]
+  },
+  "user": {
+   "id": "gNo27p",
+   "handle": "kosmixsound",
+   "name": "KOSM!X",
+   "is_verified": false
+  }
+ }
+}

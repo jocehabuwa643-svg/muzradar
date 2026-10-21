@@ -1,0 +1,103 @@
+{
+  "headers": {
+    "status": "success",
+    "code": 0,
+    "error_message": "",
+    "warnings": "",
+    "results_fullcount": 3,
+    "next": ""
+  },
+  "results": [
+    {
+      "id": "1886510",
+      "name": "Sunburst",
+      "duration": 254,
+      "artist_id": "338804",
+      "artist_name": "Nicolai Heidlas",
+      "artist_idstr": "NICOLAIHEIDLAS",
+      "album_name": "Summer Vibes",
+      "album_id": "162740",
+      "album_image": "https://usercontent.jamendo.com/?type=album&id=162740&width=300",
+      "image": "https://usercontent.jamendo.com/?type=album&id=162740&width=300",
+      "audio": "https://prod-1.storage.jamendo.com/?trackid=1886510&format=mp32&from=app",
+      "audiodownload": "https://prod-1.storage.jamendo.com/download/track/1886510/mp32/",
+      "audiodownload_allowed": true,
+      "license_ccurl": "http://creativecommons.org/licenses/by/3.0/",
+      "releasedate": "2019-04-17",
+      "shareurl": "https://www.jamendo.com/track/1886510",
+      "shorturl": "https://jamen.do/t/1886510",
+      "prourl": "https://licensing.jamendo.com/track/1886510",
+      "waveform": "",
+      "musicinfo": {
+        "vocalinstrumental": "instrumental",
+        "lang": "en",
+        "gender": "",
+        "acousticelectric": "electric",
+        "speed": "medium",
+        "tags": {
+          "genres": ["pop", "electronic"],
+          "instruments": ["guitar"],
+          "vartags": ["happy", "summer"]
+        }
+      }
+    },
+    {
+      "id": "1737038",
+      "name": "Тихий вечер",
+      "duration": 198,
+      "artist_id": "441128",
+      "artist_name": "Дмитрий Овчинников",
+      "album_name": "Полутона",
+      "album_id": "189220",
+      "album_image": "https://usercontent.jamendo.com/?type=album&id=189220&width=300",
+      "image": "https://usercontent.jamendo.com/?type=album&id=189220&width=300",
+      "audio": "https://prod-1.storage.jamendo.com/?trackid=1737038&format=mp32&from=app",
+      "audiodownload": "",
+      "audiodownload_allowed": false,
+      "license_ccurl": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "releasedate": "2020-11-02",
+      "shareurl": "https://www.jamendo.com/track/1737038",
+      "shorturl": "https://jamen.do/t/1737038",
+      "waveform": "",
+      "musicinfo": {
+        "vocalinstrumental": "vocal",
+        "lang": "ru",
+        "gender": "male",
+        "acousticelectric": "acoustic",
+        "speed": "low",
+        "tags": {
+          "genres": ["folk"],
+          "instruments": ["acousticguitar"],
+          "vartags": ["calm"]
+        }
+      }
+    },
+    {
+      "id": "1210393",
+      "name": "No Streaming Allowed",
+      "duration": 176,
+      "artist_id": "349885",
+      "artist_name": "Silent Label",
+      "album_name": "Locked",
+      "album_id": "140044",
+      "album_image": "",
+      "image": "",
+      "audio": "",
+      "audiodownload": "",
+      "audiodownload_allowed": false,
+      "license_ccurl": "http://creativecommons.org/licenses/by-nd/3.0/",
+      "releasedate": "2017-06-01",
+      "shareurl": "https://www.jamendo.com/track/1210393",
+      "shorturl": "https://jamen.do/t/1210393",
+      "waveform": "",
+      "musicinfo": {
+        "vocalinstrumental": "vocal",
+        "lang": "en",
+        "gender": "female",
+        "acousticelectric": "electric",
+        "speed": "medium",
+        "tags": { "genres": ["rock"], "instruments": [], "vartags": [] }
+      }
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+ "metadata": {
+  "identifier": "ca015_va_cs",
+  "title": "Various - Clinical Sounds - Vol.1 (ca015)",
+  "creator": "Various",
+  "mediatype": "audio",
+  "collection": [
+   "clinicalarchives",
+   "netlabels"
+  ],
+  "licenseurl": "http://creativecommons.org/licenses/by-nc-nd/3.0/",
+  "subject": "illogical; eclectic; noise; abstract; free improvisation; dark ambient; ambient; industrial; electronica; field recordings; glitch; microsound; montage; psychedelic; psy-trance; soundscape; sound art; strange; other; clinical",
+  "date": "2007-02-26"
+ },
+ "files": [
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos.afpk",
+   "source": "derivative",
+   "format": "Columbia Peaks",
+   "original": "101.Etat_Des_Stocks_Klassikkos.mp3"
+  },
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos.mp3",
+   "source": "original",
+   "format": "VBR MP3",
+   "title": "101.Etat_Des_Stocks_Klassikkos",
+   "artist": "Etat Des Stocks",
+   "creator": "Etat Des Stocks",
+   "album": "ca015 - Various - Clinical Sounds - Vol.1",
+   "track": "1",
+   "length": "262.28",
+   "external-identifier": "urn:acoustid:4721801e-ff81-45b8-91e6-e88cdc0392b2"
+  },
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos.ogg",
+   "source": "derivative",
+   "format": "Ogg Vorbis",
+   "original": "101.Etat_Des_Stocks_Klassikkos.mp3",
+   "length": "261.8"
+  },
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "101.Etat_Des_Stocks_Klassikkos.mp3"
+  },
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos_64kb.mp3",
+   "source": "derivative",
+   "format": "64Kbps MP3",
+   "original": "101.Etat_Des_Stocks_Klassikkos.mp3",
+   "title": "101.Etat_Des_Stocks_Klassikkos",
+   "creator": "Etat Des Stocks",
+   "album": "ca015 - Various - Clinical Sounds - Vol.1",
+   "track": "1",
+   "length": "04:22",
+   "bitrate": "64"
+  },
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos_esshigh.json.gz",
+   "source": "derivative",
+   "format": "Essentia High GZ",
+   "original": "101.Etat_Des_Stocks_Klassikkos_esslow.json.gz"
+  },
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos_esslow.json.gz",
+   "source": "derivative",
+   "format": "Essentia Low GZ",
+   "original": "101.Etat_Des_Stocks_Klassikkos.mp3"
+  },
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "101.Etat_Des_Stocks_Klassikkos.mp3"
+  },
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos_vbr.mp3",
+   "source": "derivative",
+   "format": "VBR MP3",
+   "original": "101.Etat_Des_Stocks_Klassikkos.mp3",
+   "title": "101.Etat_Des_Stocks_Klassikkos",
+   "creator": "Etat Des Stocks",
+   "album": "ca015 - Various - Clinical Sounds - Vol.1",
+   "track": "1",
+   "length": "04:22",
+   "bitrate": "182"
+  },
+  {
+   "name": "101.Etat_Des_Stocks_Klassikkos_vbr.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "101.Etat_Des_Stocks_Klassikkos_vbr.mp3"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.afpk",
+   "source": "derivative",
+   "format": "Columbia Peaks",
+   "original": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.mp3"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.mp3",
+   "source": "original",
+   "format": "VBR MP3",
+   "title": "102.Toby_Dammit_I_Corpi_Presentano_Tracce",
+   "artist": "Toby Dammit",
+   "creator": "Toby Dammit",
+   "album": "ca015 - Various - Clinical Sounds - Vol.1",
+   "track": "2",
+   "length": "270.22",
+   "external-identifier": "urn:acoustid:bedc5274-96dd-4fd9-888e-120ae819308f"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.ogg",
+   "source": "derivative",
+   "format": "Ogg Vorbis",
+   "original": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.mp3",
+   "length": "269.82"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.mp3"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce_64kb.mp3",
+   "source": "derivative",
+   "format": "64Kbps MP3",
+   "original": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.mp3",
+   "title": "102.Toby_Dammit_I_Corpi_Presentano_Tracce",
+   "creator": "Toby Dammit",
+   "album": "ca015 - Various - Clinical Sounds - Vol.1",
+   "track": "2",
+   "length": "04:30",
+   "bitrate": "64"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce_esshigh.json.gz",
+   "source": "derivative",
+   "format": "Essentia High GZ",
+   "original": "102.Toby_Dammit_I_Corpi_Presentano_Tracce_esslow.json.gz"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce_esslow.json.gz",
+   "source": "derivative",
+   "format": "Essentia Low GZ",
+   "original": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.mp3"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.mp3"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce_vbr.mp3",
+   "source": "derivative",
+   "format": "VBR MP3",
+   "original": "102.Toby_Dammit_I_Corpi_Presentano_Tracce.mp3",
+   "title": "102.Toby_Dammit_I_Corpi_Presentano_Tracce",
+   "creator": "Toby Dammit",
+   "album": "ca015 - Various - Clinical Sounds - Vol.1",
+   "track": "2",
+   "length": "04:30",
+   "bitrate": "146"
+  },
+  {
+   "name": "102.Toby_Dammit_I_Corpi_Presentano_Tracce_vbr.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "102.Toby_Dammit_I_Corpi_Presentano_Tracce_vbr.mp3"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella.afpk",
+   "source": "derivative",
+   "format": "Columbia Peaks",
+   "original": "103.Zack_Kouns_Isabella.mp3"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella.mp3",
+   "source": "original",
+   "format": "VBR MP3",
+   "title": "103.Zack_Kouns_Isabella",
+   "artist": "Zack Kouns",
+   "creator": "Zack Kouns",
+   "album": "ca015 - Various - Clinical Sounds - Vol.1",
+   "track": "3",
+   "length": "253.01",
+   "external-identifier": "urn:acoustid:5fa6857d-d964-417d-a3bf-b13ef6b92d67"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella.ogg",
+   "source": "derivative",
+   "format": "Ogg Vorbis",
+   "original": "103.Zack_Kouns_Isabella.mp3",
+   "length": "252.54"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "103.Zack_Kouns_Isabella.mp3"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella_64kb.mp3",
+   "source": "derivative",
+   "format": "64Kbps MP3",
+   "original": "103.Zack_Kouns_Isabella.mp3",
+   "title": "103.Zack_Kouns_Isabella",
+   "creator": "Zack Kouns",
+   "album": "ca015 - Various - Clinical Sounds - Vol.1",
+   "track": "3",
+   "length": "04:12",
+   "bitrate": "64"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella_esshigh.json.gz",
+   "source": "derivative",
+   "format": "Essentia High GZ",
+   "original": "103.Zack_Kouns_Isabella_esslow.json.gz"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella_esslow.json.gz",
+   "source": "derivative",
+   "format": "Essentia Low GZ",
+   "original": "103.Zack_Kouns_Isabella.mp3"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "103.Zack_Kouns_Isabella.mp3"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella_vbr.mp3",
+   "source": "derivative",
+   "format": "VBR MP3",
+   "original": "103.Zack_Kouns_Isabella.mp3",
+   "title": "103.Zack_Kouns_Isabella",
+   "creator": "Zack Kouns",
+   "album": "ca015 - Various - Clinical Sounds - Vol.1",
+   "track": "3",
+   "length": "04:12",
+   "bitrate": "188"
+  },
+  {
+   "name": "103.Zack_Kouns_Isabella_vbr.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "103.Zack_Kouns_Isabella_vbr.mp3"
+  }
+ ]
+}

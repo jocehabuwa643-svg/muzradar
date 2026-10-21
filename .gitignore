@@ -1,0 +1,63 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# env
+.env
+.env.*
+!.env.example
+
+# local data (dev database, uploaded avatars in dev)
+.data/
+
+# logs
+npm-debug.*
+*.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
+.eslintcache
+**/.claude/settings.local.json
+
+# Expo / EAS: вывод export и готовые сборки
+dist-export/
+.expo/
+web-build/
+*.apk
+*.aab
+*.ipa
+*.hbc
+
+# нативные папки prebuild (генерируются, дублирует apps/mobile/.gitignore)
+apps/mobile/android/
+apps/mobile/ios/
+
+# ключи подписи и учётные данные (eas credentials → local)
+*.jks
+*.keystore
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+credentials.json
+credentials/
+google-services.json
+GoogleService-Info.plist
+
+# туннели
+.cloudflared/
+ngrok.yml
+.ngrok2/

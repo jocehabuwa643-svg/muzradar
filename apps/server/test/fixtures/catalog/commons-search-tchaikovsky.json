@@ -1,0 +1,223 @@
+{
+ "batchcomplete": true,
+ "continue": {
+  "gsroffset": 6,
+  "continue": "gsroffset||"
+ },
+ "query": {
+  "pages": [
+   {
+    "pageid": 72224,
+    "ns": 6,
+    "title": "File:Ru-Pyotr Ilyich Tchaikovsky.ogg",
+    "index": 6,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 12646,
+      "width": 0,
+      "height": 0,
+      "duration": 2.314625,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Ru-Pyotr_Ilyich_Tchaikovsky.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ru-Pyotr_Ilyich_Tchaikovsky.ogg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=72224",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Ru-Pyotr Ilyich Tchaikovsky",
+        "source": "mediawiki-metadata"
+       },
+       "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Karmosin\" class=\"mw-redirect\" title=\"User:Karmosin\">karmosin</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "LicenseUrl": {
+        "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "commons-desc-page"
+       }
+      },
+      "mediatype": "AUDIO"
+     }
+    ]
+   },
+   {
+    "pageid": 433365,
+    "ns": 6,
+    "title": "File:Tchaikovsky, Pyotr Ilyich - Twelve Pieces for piano, Opus 40 (extract).ogg",
+    "index": 5,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 4575697,
+      "width": 0,
+      "height": 0,
+      "duration": 340.3348752834467,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tchaikovsky%2C_Pyotr_Ilyich_-_Twelve_Pieces_for_piano%2C_Opus_40_%28extract%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky,_Pyotr_Ilyich_-_Twelve_Pieces_for_piano,_Opus_40_(extract).ogg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=433365",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Tchaikovsky, Pyotr Ilyich - Twelve Pieces for piano, Opus 40 (extract)",
+        "source": "mediawiki-metadata"
+       },
+       "Artist": {
+        "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pyotr_Ilyich_Tchaikovsky\" class=\"extiw\" title=\"w:en:Pyotr Ilyich Tchaikovsky\"><span title=\"Russian composer (1840–1893)\">Pyotr Ilyich Tchaikovsky</span></a></bdi>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by/2.0",
+        "source": "commons-desc-page"
+       }
+      },
+      "mediatype": "AUDIO"
+     }
+    ]
+   },
+   {
+    "pageid": 3434431,
+    "ns": 6,
+    "title": "File:Pyotr Ilyich Tchaikovsky - romeo and juliet- overture-fantasy.ogg",
+    "index": 4,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 18076488,
+      "width": 0,
+      "height": 0,
+      "duration": 1112.328,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pyotr_Ilyich_Tchaikovsky_-_romeo_and_juliet-_overture-fantasy.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pyotr_Ilyich_Tchaikovsky_-_romeo_and_juliet-_overture-fantasy.ogg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3434431",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "<div class=\"fn\">\nRomeo and Juliet - overture fantasy</div>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+       }
+      },
+      "mediatype": "AUDIO"
+     }
+    ]
+   },
+   {
+    "pageid": 14351924,
+    "ns": 6,
+    "title": "File:Finale Tchaikovsky Symphony No 4.ogg",
+    "index": 1,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 27336709,
+      "width": 0,
+      "height": 0,
+      "duration": 572.7085714285714,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Finale_Tchaikovsky_Symphony_No_4.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Finale_Tchaikovsky_Symphony_No_4.ogg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=14351924",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Finale Tchaikovsky Symphony No 4",
+        "source": "mediawiki-metadata"
+       },
+       "Artist": {
+        "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pyotr_Ilyich_Tchaikovsky\" class=\"extiw\" title=\"w:en:Pyotr Ilyich Tchaikovsky\"><span title=\"Russian composer (1840–1893)\">Pyotr Ilyich Tchaikovsky</span></a></bdi>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+       }
+      },
+      "mediatype": "AUDIO"
+     }
+    ]
+   },
+   {
+    "pageid": 28928231,
+    "ns": 6,
+    "title": "File:Ru-Pyotr Ilyich Tchaikovsky variant 2.flac",
+    "index": 2,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 116188,
+      "width": 0,
+      "height": 0,
+      "duration": 2.7834920634920635,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Ru-Pyotr_Ilyich_Tchaikovsky_variant_2.flac?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ru-Pyotr_Ilyich_Tchaikovsky_variant_2.flac",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28928231",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Ru-Pyotr Ilyich Tchaikovsky variant 2",
+        "source": "mediawiki-metadata"
+       },
+       "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:AKA_MBG\" title=\"User:AKA MBG\">Andrew Krizhanovsky</a>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "Public domain",
+        "source": "commons-desc-page",
+        "hidden": ""
+       }
+      },
+      "mediatype": "AUDIO"
+     }
+    ]
+   },
+   {
+    "pageid": 71686925,
+    "ns": 6,
+    "title": "File:Hy-Պյոտր Չայկովսկի (Pyotr Ilyich Tchaikovsky).ogg",
+    "index": 3,
+    "imagerepository": "local",
+    "imageinfo": [
+     {
+      "size": 6079929,
+      "width": 0,
+      "height": 0,
+      "duration": 194.11854875283447,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hy-%D5%8A%D5%B5%D5%B8%D5%BF%D6%80_%D5%89%D5%A1%D5%B5%D5%AF%D5%B8%D5%BE%D5%BD%D5%AF%D5%AB_%28Pyotr_Ilyich_Tchaikovsky%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hy-%D5%8A%D5%B5%D5%B8%D5%BF%D6%80_%D5%89%D5%A1%D5%B5%D5%AF%D5%B8%D5%BE%D5%BD%D5%AF%D5%AB_(Pyotr_Ilyich_Tchaikovsky).ogg",
+      "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=71686925",
+      "extmetadata": {
+       "ObjectName": {
+        "value": "Hy-Պյոտր Չայկովսկի (Pyotr Ilyich Tchaikovsky)",
+        "source": "mediawiki-metadata"
+       },
+       "Artist": {
+        "value": "<p><b>Speaker:</b> Meline Martirosyan<br>\n</p>\n<b><span class=\"plainlinks\"><a rel=\"nofollow\" class=\"external text\" href=\"https://xtools.wmflabs.org/articleinfo/hy.wikipedia.org/hy%3A%D5%8A%D5%B5%D5%B8%D5%BF%D6%80%20%D5%89%D5%A1%D5%B5%D5%AF%D5%B8%D5%BE%D5%BD%D5%AF%D5%AB/2018-08-01\">Authors of the article</a></span></b>",
+        "source": "commons-desc-page"
+       },
+       "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+       },
+       "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+       }
+      },
+      "mediatype": "AUDIO"
+     }
+    ]
+   }
+  ]
+ }
+}

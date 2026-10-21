@@ -1,0 +1,196 @@
+{
+ "data": [
+  {
+   "id": "ZR40pB7",
+   "title": "Don’t Make Me Get Motivated     Dem Trapp Boyz (Fire Cut)",
+   "duration": 247,
+   "genre": "Hip-hopbarbershop",
+   "mood": "Fiery",
+   "tags": null,
+   "bpm": 147,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-18T14:19:02.105086Z",
+   "play_count": 0,
+   "permalink": "/VooDooGod1/dont-make-me-get-motivated-dem-trapp-boyz-fire-cut",
+   "is_streamable": true,
+   "is_stream_gated": true,
+   "access": {
+    "stream": false,
+    "download": false
+   },
+   "preview": {
+    "url": "https://audius-content-6.figment.io/tracks/cidstream/baeaaaiqsecmxyxddbss5kz3ssskh2bxhlhmfviskad4kvjqqlakwrwjskv3rq?signature=%7B%22data%22%3A%22%7B%5C%22cid%5C%22%3A%5C%22baeaaaiqsecmxyxddbss5kz3ssskh2bxhlhmfviskad4kvjqqlakwrwjskv3rq%5C%22%2C%5C%22timestamp%5C%22%3A1789741378000%2C%5C%22trackId%5C%22%3A1501814312%2C%5C%22userId%5C%22%3A0%7D%22%2C%22signature%22%3A%220x6798aef29b328da894fb6e5ec92552ae40e4bb951b94ae24eea0aeb602102c3d72b16686a5bbdd0f57943e3501a2d0f518408aab3be3a04ed15cc2e0e57d863d01%22%7D",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://val007.open-audio-validator.com",
+     "https://val005.open-audio-validator.com"
+    ]
+   },
+   "preview_cid": "baeaaaiqsecmxyxddbss5kz3ssskh2bxhlhmfviskad4kvjqqlakwrwjskv3rq",
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/baeaaaiqseczoo24bchp3jox47ka5pefttdtyavjp7adryskezhlkt7d6py2pa/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/baeaaaiqseczoo24bchp3jox47ka5pefttdtyavjp7adryskezhlkt7d6py2pa/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/baeaaaiqseczoo24bchp3jox47ka5pefttdtyavjp7adryskezhlkt7d6py2pa/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-creator-12.theblueprint.xyz",
+     "https://audius-content-7.figment.io",
+     "https://audius-creator-5.theblueprint.xyz"
+    ]
+   },
+   "user": {
+    "id": "xkZ5GjY",
+    "handle": "VooDooGod1",
+    "name": "VooDooGod1",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "gYX4MBd",
+   "title": "Guess I'll Fukin' Stay       DJ DiGiDaV SlapHouse ReDux (Final Cut)",
+   "duration": 337,
+   "genre": "Edm-slaphouse",
+   "mood": "Brooding",
+   "tags": null,
+   "bpm": 128,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-18T14:19:02.105086Z",
+   "play_count": 0,
+   "permalink": "/VooDooGod1/guess-ill-fukin-stay-dj-digidav-slaphouse-redux-final-cut",
+   "is_streamable": true,
+   "is_stream_gated": true,
+   "access": {
+    "stream": false,
+    "download": false
+   },
+   "preview": {
+    "url": "https://v.monophonic.digital/tracks/cidstream/baeaaaiqsebjyz5tpbqstnpjcguu77htmpan5vd4gfd52limx4ft2t3d5uc2p2?signature=%7B%22data%22%3A%22%7B%5C%22cid%5C%22%3A%5C%22baeaaaiqsebjyz5tpbqstnpjcguu77htmpan5vd4gfd52limx4ft2t3d5uc2p2%5C%22%2C%5C%22timestamp%5C%22%3A1789741378000%2C%5C%22trackId%5C%22%3A757327715%2C%5C%22userId%5C%22%3A0%7D%22%2C%22signature%22%3A%220xaa6e50f69bb548927f9bb219166916eec6cecc81e5747f834a269d9332ff1b004911af5f1e33be668e6ac509c0bf430f77be4fc318e67f403fd0c610ec53b15200%22%7D",
+    "mirrors": [
+     "https://val018.open-audio-validator.com",
+     "https://audius-03.staked.cloud",
+     "https://val011.open-audio-validator.com"
+    ]
+   },
+   "preview_cid": "baeaaaiqsebjyz5tpbqstnpjcguu77htmpan5vd4gfd52limx4ft2t3d5uc2p2",
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-creator-3.theblueprint.xyz/content/baeaaaiqseb5xkuk5yafzygro3xsvt7komrkyh62x5i6z6ok2h53njr762sdpa/150x150.jpg",
+    "480x480": "https://audius-creator-3.theblueprint.xyz/content/baeaaaiqseb5xkuk5yafzygro3xsvt7komrkyh62x5i6z6ok2h53njr762sdpa/480x480.jpg",
+    "1000x1000": "https://audius-creator-3.theblueprint.xyz/content/baeaaaiqseb5xkuk5yafzygro3xsvt7komrkyh62x5i6z6ok2h53njr762sdpa/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-02.staked.cloud",
+     "https://v.monophonic.digital",
+     "https://audius-content-12.figment.io"
+    ]
+   },
+   "user": {
+    "id": "xkZ5GjY",
+    "handle": "VooDooGod1",
+    "name": "VooDooGod1",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "435oKgr",
+   "title": "Paging Captain Apathy     NerdButter (Fire Cut)",
+   "duration": 280,
+   "genre": "Rap/hip-hop, Rap, Trap, Nerdcore",
+   "mood": "Cool",
+   "tags": null,
+   "bpm": 105,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-18T14:19:00.194806Z",
+   "play_count": 0,
+   "permalink": "/VooDooGod1/paging-captain-apathy-nerdbutter-fire-cut",
+   "is_streamable": true,
+   "is_stream_gated": true,
+   "access": {
+    "stream": false,
+    "download": false
+   },
+   "preview": {
+    "url": "https://val018.open-audio-validator.com/tracks/cidstream/baeaaaiqseacfsouzunsncyk2b7txpsvoul6egfpkgan762iu526qbkolvnf5g?signature=%7B%22data%22%3A%22%7B%5C%22cid%5C%22%3A%5C%22baeaaaiqseacfsouzunsncyk2b7txpsvoul6egfpkgan762iu526qbkolvnf5g%5C%22%2C%5C%22timestamp%5C%22%3A1789741378000%2C%5C%22trackId%5C%22%3A2070947321%2C%5C%22userId%5C%22%3A0%7D%22%2C%22signature%22%3A%220x414c431672e40fa0f3e651c64cb2cd4134ad986c742fbb5c79d498caef0f9afb5bdc6fbc7661015af0a2d1f376cd8864c10f1d53e86d932d1856745482823d0a01%22%7D",
+    "mirrors": [
+     "https://audius-content-7.figment.io",
+     "https://v.monophonic.digital",
+     "https://audius-discovery-3.altego.net"
+    ]
+   },
+   "preview_cid": "baeaaaiqseacfsouzunsncyk2b7txpsvoul6egfpkgan762iu526qbkolvnf5g",
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/baeaaaiqsebgnewckmsl6doh7kfcpeienf3poggumf7jnbk5mobewzer2cvbdg/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/baeaaaiqsebgnewckmsl6doh7kfcpeienf3poggumf7jnbk5mobewzer2cvbdg/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/baeaaaiqsebgnewckmsl6doh7kfcpeienf3poggumf7jnbk5mobewzer2cvbdg/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-03.staked.cloud",
+     "https://audius-creator-2.theblueprint.xyz",
+     "https://val011.open-audio-validator.com"
+    ]
+   },
+   "user": {
+    "id": "xkZ5GjY",
+    "handle": "VooDooGod1",
+    "name": "VooDooGod1",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "4bXqz7a",
+   "title": "Don’t Make Me Get Motivated     Dem Trapp Boyz (Final Cut)",
+   "duration": 256,
+   "genre": "Hip-hopbarbershop",
+   "mood": "Serious",
+   "tags": null,
+   "bpm": 135,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-18T14:19:00.194806Z",
+   "play_count": 0,
+   "permalink": "/VooDooGod1/dont-make-me-get-motivated-dem-trapp-boyz-final-cut",
+   "is_streamable": true,
+   "is_stream_gated": true,
+   "access": {
+    "stream": false,
+    "download": false
+   },
+   "preview": {
+    "url": "https://v.monophonic.digital/tracks/cidstream/baeaaaiqsebvcsjezdi5fk5a7blgohsa6lttbtp45mcnb744a6pv6wxg2cpym6?signature=%7B%22data%22%3A%22%7B%5C%22cid%5C%22%3A%5C%22baeaaaiqsebvcsjezdi5fk5a7blgohsa6lttbtp45mcnb744a6pv6wxg2cpym6%5C%22%2C%5C%22timestamp%5C%22%3A1789741378000%2C%5C%22trackId%5C%22%3A968636165%2C%5C%22userId%5C%22%3A0%7D%22%2C%22signature%22%3A%220x56120633cc2c8b44f483abd62519f3a1ec04c10d9fe0664f4287b0b5ce114d1c705fa870b54aa7e7131bfbe53e75ab00622fb231bc8a1994e9d60e48347ba07900%22%7D",
+    "mirrors": [
+     "https://val002.open-audio-validator.com",
+     "https://audius-03.staked.cloud",
+     "https://val019.open-audio-validator.com"
+    ]
+   },
+   "preview_cid": "baeaaaiqsebvcsjezdi5fk5a7blgohsa6lttbtp45mcnb744a6pv6wxg2cpym6",
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/baeaaaiqseczoo24bchp3jox47ka5pefttdtyavjp7adryskezhlkt7d6py2pa/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/baeaaaiqseczoo24bchp3jox47ka5pefttdtyavjp7adryskezhlkt7d6py2pa/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/baeaaaiqseczoo24bchp3jox47ka5pefttdtyavjp7adryskezhlkt7d6py2pa/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-content-7.figment.io",
+     "https://audius-creator-12.theblueprint.xyz",
+     "https://audius-creator-5.theblueprint.xyz"
+    ]
+   },
+   "user": {
+    "id": "xkZ5GjY",
+    "handle": "VooDooGod1",
+    "name": "VooDooGod1",
+    "is_verified": false
+   }
+  }
+ ]
+}

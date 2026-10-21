@@ -1,0 +1,168 @@
+{
+ "data": [
+  {
+   "id": "aNyrE4g",
+   "title": "FAT BASTARD ",
+   "duration": 181,
+   "genre": "Dubstep",
+   "mood": null,
+   "tags": null,
+   "bpm": 140,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-14T13:48:36.209253Z",
+   "play_count": 79,
+   "permalink": "/Dubdronomer/fat-bastard",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/baeaaaiqsed26a5ij6znjo2zhoop5hk66ek2mznz3wrkn3mp5flps43qu5nc6y/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/baeaaaiqsed26a5ij6znjo2zhoop5hk66ek2mznz3wrkn3mp5flps43qu5nc6y/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/baeaaaiqsed26a5ij6znjo2zhoop5hk66ek2mznz3wrkn3mp5flps43qu5nc6y/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-content-12.figment.io",
+     "https://val011.open-audio-validator.com",
+     "https://audius.rickyrombo.com"
+    ]
+   },
+   "user": {
+    "id": "m7vEXPA",
+    "handle": "Dubdronomer",
+    "name": "DUBDRONOMER ",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "RG0oWwG",
+   "title": "Dancefloor Crew",
+   "duration": 353,
+   "genre": "Tech House",
+   "mood": "Cool",
+   "tags": null,
+   "bpm": 131,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-11T14:21:15.83075Z",
+   "play_count": 57,
+   "permalink": "/carencallas/dancefloor-crew",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-content-5.figment.io/content/baeaaaiqsedxo7qw3mgonvan6puymu7gavagmanyje7ctiqg62c2cpwonkqego/150x150.jpg",
+    "480x480": "https://audius-content-5.figment.io/content/baeaaaiqsedxo7qw3mgonvan6puymu7gavagmanyje7ctiqg62c2cpwonkqego/480x480.jpg",
+    "1000x1000": "https://audius-content-5.figment.io/content/baeaaaiqsedxo7qw3mgonvan6puymu7gavagmanyje7ctiqg62c2cpwonkqego/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://audius-discovery-2.altego.net",
+     "https://audius-02.staked.cloud"
+    ]
+   },
+   "user": {
+    "id": "9E1YOa",
+    "handle": "carencallas",
+    "name": "Caren Callas",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "mvyGKV2",
+   "title": "Verukka - Who Cares (Extended Mix) 1",
+   "duration": 391,
+   "genre": "Electronic",
+   "mood": "Sensual",
+   "tags": "mysterious",
+   "bpm": 124,
+   "isrc": null,
+   "license": "All rights reserved",
+   "release_date": "2026-09-10T22:00:00Z",
+   "play_count": 86,
+   "permalink": "/Verukka/verukka-who-cares-extended-mix-1",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://val011.open-audio-validator.com/content/baeaaaiqsed2jhtz5b6fintk6ihsofnklv2w25c4lfdl7u6t65cbm6qlfnsn7k/150x150.jpg",
+    "480x480": "https://val011.open-audio-validator.com/content/baeaaaiqsed2jhtz5b6fintk6ihsofnklv2w25c4lfdl7u6t65cbm6qlfnsn7k/480x480.jpg",
+    "1000x1000": "https://val011.open-audio-validator.com/content/baeaaaiqsed2jhtz5b6fintk6ihsofnklv2w25c4lfdl7u6t65cbm6qlfnsn7k/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://audius-creator-15.theblueprint.xyz",
+     "https://audius-creator-13.theblueprint.xyz"
+    ]
+   },
+   "user": {
+    "id": "mN2r1p",
+    "handle": "Verukka",
+    "name": "Verukka salt",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "N413GQ",
+   "title": "Harmonic Fragmentation (Study No. 2)",
+   "duration": 202,
+   "genre": "Ambient",
+   "mood": "Peaceful",
+   "tags": null,
+   "bpm": 123,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-11T13:52:47Z",
+   "play_count": 107,
+   "permalink": "/maex/harmonic-fragmentation-study-no-2",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-content-6.figment.io/content/baeaaaiqseavc5b63l5syvuc6qqnwiz3zpkgbt5bowhc64qcbdtgqu4sgpv5bq/150x150.jpg",
+    "480x480": "https://audius-content-6.figment.io/content/baeaaaiqseavc5b63l5syvuc6qqnwiz3zpkgbt5bowhc64qcbdtgqu4sgpv5bq/480x480.jpg",
+    "1000x1000": "https://audius-content-6.figment.io/content/baeaaaiqseavc5b63l5syvuc6qqnwiz3zpkgbt5bowhc64qcbdtgqu4sgpv5bq/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-figment-1-validator-18.figment.io",
+     "https://val013.open-audio-validator.com",
+     "https://v.monophonic.digital"
+    ]
+   },
+   "user": {
+    "id": "9RdmVaA",
+    "handle": "maex",
+    "name": "Mæx",
+    "is_verified": false
+   }
+  }
+ ]
+}

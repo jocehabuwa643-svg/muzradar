@@ -1,0 +1,797 @@
+{
+ "data": [
+  {
+   "id": "l5WdA",
+   "title": "КИНО",
+   "duration": 262,
+   "genre": "Electronic",
+   "mood": "Defiant",
+   "tags": null,
+   "bpm": 110,
+   "isrc": null,
+   "license": null,
+   "release_date": "2022-03-22T14:50:15Z",
+   "play_count": 697,
+   "permalink": "/quok/кино",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-creator-3.theblueprint.xyz/content/QmT9ddKXTF32ugZKWh877TLLkVRnNuq8fXCz17rKqokt5D/150x150.jpg",
+    "480x480": "https://audius-creator-3.theblueprint.xyz/content/QmT9ddKXTF32ugZKWh877TLLkVRnNuq8fXCz17rKqokt5D/480x480.jpg",
+    "1000x1000": "https://audius-creator-3.theblueprint.xyz/content/QmT9ddKXTF32ugZKWh877TLLkVRnNuq8fXCz17rKqokt5D/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-content-1.figment.io",
+     "https://v.monophonic.digital",
+     "https://audius-creator-12.theblueprint.xyz"
+    ]
+   },
+   "user": {
+    "id": "NP8jN",
+    "handle": "quok",
+    "name": "Quok",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "dWYbv",
+   "title": "Macan - Кино",
+   "duration": 184,
+   "genre": "Comedy",
+   "mood": null,
+   "tags": null,
+   "bpm": 108,
+   "isrc": null,
+   "license": "All rights reserved",
+   "release_date": "2022-02-19T14:43:05Z",
+   "play_count": 3158,
+   "permalink": "/dion1ss/macan-кино",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/QmRpPzb1DDtz5YUAR5UoZy6RW1GWrDqBowgpGi3hfd667o/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/QmRpPzb1DDtz5YUAR5UoZy6RW1GWrDqBowgpGi3hfd667o/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/QmRpPzb1DDtz5YUAR5UoZy6RW1GWrDqBowgpGi3hfd667o/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-creator-12.theblueprint.xyz",
+     "https://audius-04.staked.cloud",
+     "https://val015.open-audio-validator.com"
+    ]
+   },
+   "user": {
+    "id": "r2zdY",
+    "handle": "dion1ss",
+    "name": "Дима Яровой",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "kKvaX",
+   "title": "Кинофилы",
+   "duration": 210,
+   "genre": "Alternative",
+   "mood": null,
+   "tags": "indie,indierock,indiepop",
+   "bpm": 128.3,
+   "isrc": null,
+   "license": null,
+   "release_date": "2021-02-23T11:44:15Z",
+   "play_count": 80,
+   "permalink": "/mlechnyi_band/кинофилы-264287",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/QmURyQTkdAyFQGAmGBb2F4eoGBG3FNkpb2iWDT88QJLPwq/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/QmURyQTkdAyFQGAmGBb2F4eoGBG3FNkpb2iWDT88QJLPwq/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/QmURyQTkdAyFQGAmGBb2F4eoGBG3FNkpb2iWDT88QJLPwq/1000x1000.jpg",
+    "mirrors": [
+     "https://val010.open-audio-validator.com",
+     "https://cn1.mainnet.audiusindex.org",
+     "https://audius-creator-6.theblueprint.xyz"
+    ]
+   },
+   "user": {
+    "id": "DX49q",
+    "handle": "mlechnyi_band",
+    "name": "Млечный путь",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "q7lbB",
+   "title": "b2 одинокий",
+   "duration": 271,
+   "genre": "Vaporwave",
+   "mood": "Sentimental",
+   "tags": "chill,beats",
+   "bpm": 153.8,
+   "isrc": null,
+   "license": null,
+   "release_date": "2021-03-29T01:01:05Z",
+   "play_count": 84,
+   "permalink": "/user_080613/b2-одинокий-317929",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/QmVPBYf3gfBu2sV7Z3rAQqpE9fzq19vjP5vG7RdF7ULBBw/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/QmVPBYf3gfBu2sV7Z3rAQqpE9fzq19vjP5vG7RdF7ULBBw/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/QmVPBYf3gfBu2sV7Z3rAQqpE9fzq19vjP5vG7RdF7ULBBw/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-creator-2.theblueprint.xyz",
+     "https://audius-content-1.figment.io",
+     "https://val002.open-audio-validator.com"
+    ]
+   },
+   "user": {
+    "id": "LwVXK",
+    "handle": "user_080613",
+    "name": "haircuts for men",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "NP3z4",
+   "title": "Единороги",
+   "duration": 295,
+   "genre": "World",
+   "mood": "Peaceful",
+   "tags": null,
+   "bpm": 105.2,
+   "isrc": "ushm82175048",
+   "license": null,
+   "release_date": "2022-01-07T18:01:20Z",
+   "play_count": 50,
+   "permalink": "/nebo_music/единороги",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/QmRYWDxH3fvZ2iwdQCs5ZFPQwRDK5NqhxQNGJNLwbTfuRn/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/QmRYWDxH3fvZ2iwdQCs5ZFPQwRDK5NqhxQNGJNLwbTfuRn/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/QmRYWDxH3fvZ2iwdQCs5ZFPQwRDK5NqhxQNGJNLwbTfuRn/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-03.staked.cloud",
+     "https://audius-content-14.figment.io",
+     "https://val010.open-audio-validator.com"
+    ]
+   },
+   "user": {
+    "id": "apvYj",
+    "handle": "nebo_music",
+    "name": "Jane Stark",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "O6VkZ",
+   "title": "Виноград",
+   "duration": 122,
+   "genre": "Hip-Hop/Rap",
+   "mood": "Aggressive",
+   "tags": "triphop,rap,experemental,electronic",
+   "bpm": 90.1,
+   "isrc": null,
+   "license": "All rights reserved",
+   "release_date": "2022-08-06T15:11:15Z",
+   "play_count": 36,
+   "permalink": "/griprite/виноград",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-creator-14.theblueprint.xyz/content/QmYpaRZdFtjq8kRho39EKwWhoFmYL1pcB5AokM58JYjgVd/150x150.jpg",
+    "480x480": "https://audius-creator-14.theblueprint.xyz/content/QmYpaRZdFtjq8kRho39EKwWhoFmYL1pcB5AokM58JYjgVd/480x480.jpg",
+    "1000x1000": "https://audius-creator-14.theblueprint.xyz/content/QmYpaRZdFtjq8kRho39EKwWhoFmYL1pcB5AokM58JYjgVd/1000x1000.jpg",
+    "mirrors": [
+     "https://val001.open-audio-validator.com",
+     "https://audius-01.staked.cloud",
+     "https://v.monophonic.digital"
+    ]
+   },
+   "user": {
+    "id": "mmO8r",
+    "handle": "griprite",
+    "name": "Griprite",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "Y53qr",
+   "title": "геша-ушивец-сладкое-вино",
+   "duration": 334,
+   "genre": "Rock",
+   "mood": null,
+   "tags": "woodenwings,geshaushivets,gesha",
+   "bpm": 136.3,
+   "isrc": null,
+   "license": null,
+   "release_date": "2021-12-13T05:08:25Z",
+   "play_count": 109,
+   "permalink": "/Krasava3/геша-ушивец-сладкое-вино",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/QmV2nwPZkM7ohr1wEhFRK6SaK1uAaVD5TUJdXfNBioZbcS/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/QmV2nwPZkM7ohr1wEhFRK6SaK1uAaVD5TUJdXfNBioZbcS/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/QmV2nwPZkM7ohr1wEhFRK6SaK1uAaVD5TUJdXfNBioZbcS/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-content-7.figment.io",
+     "https://audius-nodes.com",
+     "https://val007.open-audio-validator.com"
+    ]
+   },
+   "user": {
+    "id": "oYRAm",
+    "handle": "Krasava3",
+    "name": "Krasava",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "QYNM54",
+   "title": "призыв к ЕдиноБожию",
+   "duration": 24,
+   "genre": "Audiobooks",
+   "mood": "Other",
+   "tags": null,
+   "bpm": 81.1,
+   "isrc": null,
+   "license": null,
+   "release_date": "2024-01-31T20:00:00Z",
+   "play_count": 10,
+   "permalink": "/orkhan87/призыв-к-единобожию",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-content-3.figment.io/content/01HNJ07KRJGGN3K4G1HNXA5DDJ/150x150.jpg",
+    "480x480": "https://audius-content-3.figment.io/content/01HNJ07KRJGGN3K4G1HNXA5DDJ/480x480.jpg",
+    "1000x1000": "https://audius-content-3.figment.io/content/01HNJ07KRJGGN3K4G1HNXA5DDJ/1000x1000.jpg",
+    "mirrors": [
+     "https://val006.open-audio-validator.com",
+     "https://v.monophonic.digital",
+     "https://cn1.mainnet.audiusindex.org"
+    ]
+   },
+   "user": {
+    "id": "qzwzGbo",
+    "handle": "orkhan87",
+    "name": "Orkhan Allahverdiyev",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "93kqwa2",
+   "title": "Кино - Кукушка",
+   "duration": 398,
+   "genre": "Rock",
+   "mood": null,
+   "tags": null,
+   "bpm": 105.6,
+   "isrc": null,
+   "license": "All rights reserved",
+   "release_date": "2023-02-23T14:40:25Z",
+   "play_count": 656,
+   "permalink": "/azat2001/кино-кукушка",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://val009.open-audio-validator.com/content/QmUADNpmWtd98Fpnu9TVTQCH87Ggdtknv6kEhWQgZHy1SG/150x150.jpg",
+    "480x480": "https://val009.open-audio-validator.com/content/QmUADNpmWtd98Fpnu9TVTQCH87Ggdtknv6kEhWQgZHy1SG/480x480.jpg",
+    "1000x1000": "https://val009.open-audio-validator.com/content/QmUADNpmWtd98Fpnu9TVTQCH87Ggdtknv6kEhWQgZHy1SG/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://audius-nodes.com",
+     "https://audius-creator-1.theblueprint.xyz"
+    ]
+   },
+   "user": {
+    "id": "4bQrY1d",
+    "handle": "azat2001",
+    "name": "azat2001",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "9dxdl7k",
+   "title": "Соль обуяла Мы сами виноваты во всех бедах",
+   "duration": 1430,
+   "genre": "Podcasts",
+   "mood": null,
+   "tags": null,
+   "bpm": 120.4,
+   "isrc": null,
+   "license": null,
+   "release_date": "2025-01-29T11:07:11Z",
+   "play_count": 3,
+   "permalink": "/jevgeni/соль-обуяла-мы-сами-виноваты-во-всех-бедах",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": null,
+   "user": {
+    "id": "v2KKlw8",
+    "handle": "jevgeni",
+    "name": "jevgeni",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "5zrRPxx",
+   "title": "«если иной придёт во имя своё, его примете» - на Рождественский пост",
+   "duration": 1142,
+   "genre": "Podcasts",
+   "mood": null,
+   "tags": null,
+   "bpm": 131.5,
+   "isrc": null,
+   "license": null,
+   "release_date": "2025-01-29T11:07:11Z",
+   "play_count": 3,
+   "permalink": "/jevgeni/«если-иной-придёт-во-имя-своё-его-примете»-на-рождественский-пост",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": null,
+   "user": {
+    "id": "v2KKlw8",
+    "handle": "jevgeni",
+    "name": "jevgeni",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "7APGR4v",
+   "title": "13 КИНО - Спокойная Ночь (Andriesh Rmx)",
+   "duration": 408,
+   "genre": "Electronic",
+   "mood": "Cool",
+   "tags": null,
+   "bpm": 114,
+   "isrc": null,
+   "license": null,
+   "release_date": "2025-08-01T19:15:04Z",
+   "play_count": 12,
+   "permalink": "/arshanitsa/13-кино-спокойная-ночь-andriesh-rmx",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://val002.open-audio-validator.com/content/01K1KHFWGMRH95QHDW41JYYHFR/150x150.jpg",
+    "480x480": "https://val002.open-audio-validator.com/content/01K1KHFWGMRH95QHDW41JYYHFR/480x480.jpg",
+    "1000x1000": "https://val002.open-audio-validator.com/content/01K1KHFWGMRH95QHDW41JYYHFR/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://validator.stuffisup.com",
+     "https://audius.rickyrombo.com"
+    ]
+   },
+   "user": {
+    "id": "0714k",
+    "handle": "arshanitsa",
+    "name": "Arshanitsa",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "2PAyEYd",
+   "title": "Artemka - Папин Олимпос - Динозаврики (hardstyle - speed up)",
+   "duration": 138,
+   "genre": "Electronic",
+   "mood": "Fiery",
+   "tags": "edm,hardstyle,hardcore,electro,dance",
+   "bpm": 110,
+   "isrc": null,
+   "license": null,
+   "release_date": "2025-09-27T19:44:57Z",
+   "play_count": 0,
+   "permalink": "/Varckin/artemka-папин-олимпос-динозаврики-hardstyle-speed-up",
+   "is_streamable": false,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": true,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/01K66BCS2P3Q3GS62Z30B6HD3W/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/01K66BCS2P3Q3GS62Z30B6HD3W/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/01K66BCS2P3Q3GS62Z30B6HD3W/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-content-1.figment.io",
+     "https://audius-creator-8.theblueprint.xyz",
+     "https://val010.open-audio-validator.com"
+    ]
+   },
+   "user": {
+    "id": "JG1JjP2",
+    "handle": "Varckin",
+    "name": "Markus Varckin",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "RkQ1ZQ",
+   "title": "Artemka - Папин Олимпос - Динозаврики (hardstyle - speed up)",
+   "duration": 138,
+   "genre": "Electronic",
+   "mood": "Fiery",
+   "tags": "edm,dance,hardstyle,hardcore,electro",
+   "bpm": 110,
+   "isrc": null,
+   "license": null,
+   "release_date": "2025-09-28T12:29:12Z",
+   "play_count": 5,
+   "permalink": "/Varckin/artemka-папин-олимпос-динозаврики-hardstyle-speed-up-1",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://v.monophonic.digital/content/01K684X15REEGMH6D6N2Y2XW5V/150x150.jpg",
+    "480x480": "https://v.monophonic.digital/content/01K684X15REEGMH6D6N2Y2XW5V/480x480.jpg",
+    "1000x1000": "https://v.monophonic.digital/content/01K684X15REEGMH6D6N2Y2XW5V/1000x1000.jpg",
+    "mirrors": [
+     "https://cn2.mainnet.audiusindex.org",
+     "https://val018.open-audio-validator.com",
+     "https://audius-content-1.figment.io"
+    ]
+   },
+   "user": {
+    "id": "JG1JjP2",
+    "handle": "Varckin",
+    "name": "Markus Varckin",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "WQXvqNZ",
+   "title": "Поодиночке мы потерпим поражение",
+   "duration": 1120,
+   "genre": "Podcasts",
+   "mood": null,
+   "tags": null,
+   "bpm": 121.4,
+   "isrc": null,
+   "license": null,
+   "release_date": "2025-01-29T11:07:11Z",
+   "play_count": 2,
+   "permalink": "/jevgeni/поодиночке-мы-потерпим-поражение",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": null,
+   "user": {
+    "id": "v2KKlw8",
+    "handle": "jevgeni",
+    "name": "jevgeni",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "VRvjMdP",
+   "title": "MACAN - Кино (Официальная премьера трека)",
+   "duration": 185,
+   "genre": "Hip-Hop/Rap",
+   "mood": "Sentimental",
+   "tags": null,
+   "bpm": 107.9,
+   "isrc": null,
+   "license": "All rights reserved",
+   "release_date": "2023-03-05T21:29:30Z",
+   "play_count": 1544,
+   "permalink": "/krys_fly/macan-кино-официальная-премьера-трека",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-creator-15.theblueprint.xyz/content/QmPbGux7fAHhWhHHccAefMeEyfW8CyjY1APjhfKtwT2Ffk/150x150.jpg",
+    "480x480": "https://audius-creator-15.theblueprint.xyz/content/QmPbGux7fAHhWhHHccAefMeEyfW8CyjY1APjhfKtwT2Ffk/480x480.jpg",
+    "1000x1000": "https://audius-creator-15.theblueprint.xyz/content/QmPbGux7fAHhWhHHccAefMeEyfW8CyjY1APjhfKtwT2Ffk/1000x1000.jpg",
+    "mirrors": [
+     "https://val010.open-audio-validator.com",
+     "https://v.monophonic.digital",
+     "https://audius.rickyrombo.com"
+    ]
+   },
+   "user": {
+    "id": "apRJ4ZQ",
+    "handle": "krys_fly",
+    "name": "Kris fly",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "93280",
+   "title": "Кино - Группа крови (Игла) Kino - Blood t",
+   "duration": 191,
+   "genre": "Folk",
+   "mood": null,
+   "tags": null,
+   "bpm": 126.7,
+   "isrc": null,
+   "license": "All rights reserved",
+   "release_date": "2022-06-03T11:53:10Z",
+   "play_count": 708,
+   "permalink": "/jacqu/кино-группа-крови-игла-kino-blood-t",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-content-10.figment.io/content/QmaMRY6okJcNr9Uf99Qc1Sr4aogBK9CRVF39Aks7ZMzwGh/150x150.jpg",
+    "480x480": "https://audius-content-10.figment.io/content/QmaMRY6okJcNr9Uf99Qc1Sr4aogBK9CRVF39Aks7ZMzwGh/480x480.jpg",
+    "1000x1000": "https://audius-content-10.figment.io/content/QmaMRY6okJcNr9Uf99Qc1Sr4aogBK9CRVF39Aks7ZMzwGh/1000x1000.jpg",
+    "mirrors": [
+     "https://val013.open-audio-validator.com",
+     "https://audius-content-12.figment.io",
+     "https://v.monophonic.digital"
+    ]
+   },
+   "user": {
+    "id": "dJOmP",
+    "handle": "jacqu",
+    "name": "Jacku",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "O7qrEMz",
+   "title": "повиноватся большинству",
+   "duration": 59,
+   "genre": "Audiobooks",
+   "mood": "Other",
+   "tags": null,
+   "bpm": null,
+   "isrc": null,
+   "license": null,
+   "release_date": "2024-01-31T20:00:00Z",
+   "play_count": 3,
+   "permalink": "/orkhan87/повиноватся-большинству",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-content-3.figment.io/content/01HNJ07KRJGGN3K4G1HNXA5DDJ/150x150.jpg",
+    "480x480": "https://audius-content-3.figment.io/content/01HNJ07KRJGGN3K4G1HNXA5DDJ/480x480.jpg",
+    "1000x1000": "https://audius-content-3.figment.io/content/01HNJ07KRJGGN3K4G1HNXA5DDJ/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://val006.open-audio-validator.com",
+     "https://cn1.mainnet.audiusindex.org"
+    ]
+   },
+   "user": {
+    "id": "qzwzGbo",
+    "handle": "orkhan87",
+    "name": "Orkhan Allahverdiyev",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "vYMYgEz",
+   "title": "можно ли есть свиное сало_",
+   "duration": 58,
+   "genre": "Audiobooks",
+   "mood": "Other",
+   "tags": null,
+   "bpm": 107.2,
+   "isrc": null,
+   "license": null,
+   "release_date": "2024-01-31T20:00:00Z",
+   "play_count": 13,
+   "permalink": "/orkhan87/можно-ли-есть-свиное-сало_",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://cn1.mainnet.audiusindex.org/content/01HNJ07KRJGGN3K4G1HNXA5DDJ/150x150.jpg",
+    "480x480": "https://cn1.mainnet.audiusindex.org/content/01HNJ07KRJGGN3K4G1HNXA5DDJ/480x480.jpg",
+    "1000x1000": "https://cn1.mainnet.audiusindex.org/content/01HNJ07KRJGGN3K4G1HNXA5DDJ/1000x1000.jpg",
+    "mirrors": [
+     "https://val006.open-audio-validator.com",
+     "https://v.monophonic.digital",
+     "https://audius-content-3.figment.io"
+    ]
+   },
+   "user": {
+    "id": "qzwzGbo",
+    "handle": "orkhan87",
+    "name": "Orkhan Allahverdiyev",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "P745p",
+   "title": "ВСЕ БОМБИНО",
+   "duration": 2,
+   "genre": "Metal",
+   "mood": "Sophisticated",
+   "tags": null,
+   "bpm": 184.6,
+   "isrc": null,
+   "license": "All rights reserved",
+   "release_date": "2022-02-20T14:05:20Z",
+   "play_count": 35,
+   "permalink": "/BahniukI/все-бомбино",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://val006.open-audio-validator.com/content/QmaZA7BLYrWJQhasxJz3gUKKW44zkvpNsbtkA6EbYmatxq/150x150.jpg",
+    "480x480": "https://val006.open-audio-validator.com/content/QmaZA7BLYrWJQhasxJz3gUKKW44zkvpNsbtkA6EbYmatxq/480x480.jpg",
+    "1000x1000": "https://val006.open-audio-validator.com/content/QmaZA7BLYrWJQhasxJz3gUKKW44zkvpNsbtkA6EbYmatxq/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://audius-content-6.figment.io",
+     "https://val009.open-audio-validator.com"
+    ]
+   },
+   "user": {
+    "id": "l41J6",
+    "handle": "BahniukI",
+    "name": "BAHNIUK IHOR",
+    "is_verified": false
+   }
+  }
+ ]
+}

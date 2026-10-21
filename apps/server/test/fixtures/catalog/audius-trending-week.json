@@ -1,0 +1,248 @@
+{
+ "data": [
+  {
+   "id": "YlRbOJ",
+   "title": "Dream",
+   "duration": 162,
+   "genre": "Dubstep",
+   "mood": "Aggressive",
+   "tags": "heavy",
+   "bpm": 145,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-11T13:54:42.449643Z",
+   "play_count": 622,
+   "permalink": "/kosmixsound/dream",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://val011.open-audio-validator.com/content/baeaaaiqseaybftm4hvadnzbz7s2vqcsfyury7ltisi56uq6j6y7ajnnxc72pq/150x150.jpg",
+    "480x480": "https://val011.open-audio-validator.com/content/baeaaaiqseaybftm4hvadnzbz7s2vqcsfyury7ltisi56uq6j6y7ajnnxc72pq/480x480.jpg",
+    "1000x1000": "https://val011.open-audio-validator.com/content/baeaaaiqseaybftm4hvadnzbz7s2vqcsfyury7ltisi56uq6j6y7ajnnxc72pq/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://audius-creator-8.theblueprint.xyz",
+     "https://val009.open-audio-validator.com"
+    ]
+   },
+   "user": {
+    "id": "gNo27p",
+    "handle": "kosmixsound",
+    "name": "KOSM!X",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "y6wExE",
+   "title": "Van Snyder - Rave! Code Radio 024 - 2026-09-07",
+   "duration": 3588,
+   "genre": "Electronic",
+   "mood": "Fiery",
+   "tags": "mainstage,bigroom,electro,electronic,pop,dance,techno,dj,edm,trance",
+   "bpm": 124,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-08T15:43:23.763286Z",
+   "play_count": 895,
+   "permalink": "/vansnydermusic/van-snyder-rave-code-radio-024-2026-09-07",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-creator-7.theblueprint.xyz/content/baeaaaiqsebd5iquqnbhpqqzv3lne7wuhj7uaz2ugbpag2anpqchev3k5se46s/150x150.jpg",
+    "480x480": "https://audius-creator-7.theblueprint.xyz/content/baeaaaiqsebd5iquqnbhpqqzv3lne7wuhj7uaz2ugbpag2anpqchev3k5se46s/480x480.jpg",
+    "1000x1000": "https://audius-creator-7.theblueprint.xyz/content/baeaaaiqsebd5iquqnbhpqqzv3lne7wuhj7uaz2ugbpag2anpqchev3k5se46s/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://audius-discovery-3.altego.net",
+     "https://val004.open-audio-validator.com"
+    ]
+   },
+   "user": {
+    "id": "k259kWP",
+    "handle": "vansnydermusic",
+    "name": "Van Snyder",
+    "is_verified": true
+   }
+  },
+  {
+   "id": "xPJGkO3",
+   "title": "Jazcardan - Nature",
+   "duration": 175,
+   "genre": "Deep House",
+   "mood": "Tender",
+   "tags": "nature,original,housemusic,deephouse,discoball,mistic,elements,groove,synth,vibe",
+   "bpm": 123,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-14T19:42:15Z",
+   "play_count": 257,
+   "permalink": "/Jazcardan/jazcardan-nature",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://val005.open-audio-validator.com/content/baeaaaiqsedlku55zpqjg7ad3hzcjjwt6lcccy7ukznk3e7qap347t2lcypvh4/150x150.jpg",
+    "480x480": "https://val005.open-audio-validator.com/content/baeaaaiqsedlku55zpqjg7ad3hzcjjwt6lcccy7ukznk3e7qap347t2lcypvh4/480x480.jpg",
+    "1000x1000": "https://val005.open-audio-validator.com/content/baeaaaiqsedlku55zpqjg7ad3hzcjjwt6lcccy7ukznk3e7qap347t2lcypvh4/1000x1000.jpg",
+    "mirrors": [
+     "https://audius-creator-15.theblueprint.xyz",
+     "https://val015.open-audio-validator.com",
+     "https://v.monophonic.digital"
+    ]
+   },
+   "user": {
+    "id": "pPROo",
+    "handle": "Jazcardan",
+    "name": "Jazcardan",
+    "is_verified": true
+   }
+  },
+  {
+   "id": "4AZEqOa",
+   "title": "NiGHTS demo 2",
+   "duration": 135,
+   "genre": "World",
+   "mood": "Peaceful",
+   "tags": "iam,mai,maiworld,mwo,maiworldorder,nights",
+   "bpm": 85,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-14T21:47:20.99292Z",
+   "play_count": 248,
+   "permalink": "/MAiWORLD/nights-demo-2",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-creator-5.theblueprint.xyz/content/baeaaaiqsecb4gr4ghmb77kfjwwvdaglpzdp2fje5sfzllxslvtqzcx5bvr4su/150x150.jpg",
+    "480x480": "https://audius-creator-5.theblueprint.xyz/content/baeaaaiqsecb4gr4ghmb77kfjwwvdaglpzdp2fje5sfzllxslvtqzcx5bvr4su/480x480.jpg",
+    "1000x1000": "https://audius-creator-5.theblueprint.xyz/content/baeaaaiqsecb4gr4ghmb77kfjwwvdaglpzdp2fje5sfzllxslvtqzcx5bvr4su/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://audius-05.staked.cloud"
+    ]
+   },
+   "user": {
+    "id": "LR24z",
+    "handle": "MAiWORLD",
+    "name": "MAi",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "NWaAXp",
+   "title": "Energy - Sampa the Great (Submana Bootleg)",
+   "duration": 166,
+   "genre": "Dubstep",
+   "mood": "Fiery",
+   "tags": null,
+   "bpm": 140,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-12T04:19:54.111583Z",
+   "play_count": 212,
+   "permalink": "/Submana/energy-sampa-the-great-submana-bootleg",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://audius-creator-10.theblueprint.xyz/content/baeaaaiqsecz4ob7kycxnswjr5pxgxzrkpgvxpxfsvgxqc56q5ch2ugbtn4qii/150x150.jpg",
+    "480x480": "https://audius-creator-10.theblueprint.xyz/content/baeaaaiqsecz4ob7kycxnswjr5pxgxzrkpgvxpxfsvgxqc56q5ch2ugbtn4qii/480x480.jpg",
+    "1000x1000": "https://audius-creator-10.theblueprint.xyz/content/baeaaaiqsecz4ob7kycxnswjr5pxgxzrkpgvxpxfsvgxqc56q5ch2ugbtn4qii/1000x1000.jpg",
+    "mirrors": [
+     "https://v.monophonic.digital",
+     "https://audius-04.staked.cloud"
+    ]
+   },
+   "user": {
+    "id": "v2GlzWp",
+    "handle": "Submana",
+    "name": "Submana",
+    "is_verified": false
+   }
+  },
+  {
+   "id": "ZE9YGKa",
+   "title": "Nøvek : Intrøspektiv : 002 (Producer Set)",
+   "duration": 3719,
+   "genre": "Techno",
+   "mood": null,
+   "tags": null,
+   "bpm": 143,
+   "isrc": null,
+   "license": null,
+   "release_date": "2026-09-11T15:34:56.224066Z",
+   "play_count": 350,
+   "permalink": "/Novek/nøvek-intrøspektiv-002-producer-set",
+   "is_streamable": true,
+   "is_stream_gated": false,
+   "access": {
+    "stream": true,
+    "download": true
+   },
+   "preview": null,
+   "preview_cid": null,
+   "allowed_api_keys": null,
+   "is_available": true,
+   "is_delete": false,
+   "artwork": {
+    "150x150": "https://cn0.mainnet.audiusindex.org/content/baeaaaiqsedhmou5zeulgifyljflasesybxe6rphb73yjdjsqud6ffyocxuftm/150x150.jpg",
+    "480x480": "https://cn0.mainnet.audiusindex.org/content/baeaaaiqsedhmou5zeulgifyljflasesybxe6rphb73yjdjsqud6ffyocxuftm/480x480.jpg",
+    "1000x1000": "https://cn0.mainnet.audiusindex.org/content/baeaaaiqsedhmou5zeulgifyljflasesybxe6rphb73yjdjsqud6ffyocxuftm/1000x1000.jpg",
+    "mirrors": [
+     "https://audius.rickyrombo.com",
+     "https://audius-content-10.figment.io",
+     "https://v.monophonic.digital"
+    ]
+   },
+   "user": {
+    "id": "b93gz1K",
+    "handle": "Novek",
+    "name": "Nøvek",
+    "is_verified": false
+   }
+  }
+ ]
+}

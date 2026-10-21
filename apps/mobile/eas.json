@@ -1,0 +1,38 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "APP_VARIANT": "development",
+        "LOCATION_GATE": "hard",
+        "EXPO_PUBLIC_API_URL": "http://192.168.0.107:8080"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "APP_VARIANT": "preview",
+        "LOCATION_GATE": "hard",
+        "EXPO_PUBLIC_API_URL": "http://192.168.0.107:8080"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "APP_VARIANT": "production",
+        "LOCATION_GATE": "hard"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
