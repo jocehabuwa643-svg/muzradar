@@ -1,0 +1,8 @@
+MediaPipe Face Landmarker model
+
+Source: https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
+Project: https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker
+License: Apache License, Version 2.0
+License text: https://www.apache.org/licenses/LICENSE-2.0
+
+The model is bundled locally so camera images are processed on the user's device and are not sent to a third-party face-detection service.
