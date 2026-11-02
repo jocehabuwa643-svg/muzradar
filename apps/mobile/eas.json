@@ -10,7 +10,7 @@
       "env": {
         "APP_VARIANT": "development",
         "LOCATION_GATE": "hard",
-        "EXPO_PUBLIC_API_URL": "https://jmahy-109-174-77-0.run.pinggy-free.link"
+        "EXPO_PUBLIC_API_URL": "https://cdad87577b684a.lhr.life"
       }
     },
     "preview": {
@@ -21,7 +21,7 @@
       "env": {
         "APP_VARIANT": "preview",
         "LOCATION_GATE": "hard",
-        "EXPO_PUBLIC_API_URL": "https://jmahy-109-174-77-0.run.pinggy-free.link"
+        "EXPO_PUBLIC_API_URL": "https://cdad87577b684a.lhr.life"
       }
     },
     "production": {

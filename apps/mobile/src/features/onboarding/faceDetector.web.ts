@@ -1,4 +1,5 @@
 import type { DetectedFace } from './faceCheck';
+import { webAssetUrl } from '@/lib/config';
 
 const IDENTITY = [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] as const;
 
@@ -64,7 +65,7 @@ function loadVision(): Promise<VisionApi> {
   if (existing) return Promise.resolve(existing);
   visionPromise ??= new Promise<VisionApi>((resolve, reject) => {
     const script = document.createElement('script');
-    script.src = '/vendor/vision_bundle.js';
+    script.src = webAssetUrl('/vendor/vision_bundle.js');
     script.async = true;
     script.onload = () => {
       const api = (globalThis as unknown as { Vision?: VisionApi }).Vision;
@@ -85,9 +86,9 @@ let shared: Promise<Landmarker> | null = null;
 function getDetector(): Promise<Landmarker> {
   shared ??= (async () => {
     const api = await loadVision();
-    const vision = await api.FilesetResolver.forVisionTasks('/wasm');
+    const vision = await api.FilesetResolver.forVisionTasks(webAssetUrl('/wasm'));
     return api.FaceLandmarker.createFromOptions(vision, {
-      baseOptions: { modelAssetPath: '/models/face_landmarker.task', delegate: 'CPU' },
+      baseOptions: { modelAssetPath: webAssetUrl('/models/face_landmarker.task'), delegate: 'CPU' },
       runningMode: 'IMAGE',
       numFaces: 2,
       minFaceDetectionConfidence: 0.5,

@@ -12,6 +12,7 @@ const LOCATION_GATE = process.env.LOCATION_GATE === 'map-only' ? 'map-only' : 'h
 const LIVE_LOCATION = process.env.LIVE_LOCATION === '1';
 const APP_VARIANT = process.env.APP_VARIANT ?? 'development';
 const API_URL = process.env.EXPO_PUBLIC_API_URL ?? 'http://10.0.2.2:8080';
+const BASE_URL = process.env.EXPO_PUBLIC_BASE_URL?.replace(/\/+$/, '');
 const IS_PROD = APP_VARIANT === 'production';
 
 // Тестовые сборки ходят к серверу разработчика по http://<адрес в Wi-Fi>:8080, а release-Android
@@ -111,7 +112,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       ['expo-secure-store', { configureAndroidBackup: true, faceIDPermission: false }],
       '@maplibre/maplibre-react-native',
     ],
-    experiments: { typedRoutes: true },
+    experiments: { typedRoutes: true, ...(BASE_URL ? { baseUrl: BASE_URL } : {}) },
     extra: {
       // eas init пишет extra.eas.projectId в app.json — не затираем его
       ...config.extra,

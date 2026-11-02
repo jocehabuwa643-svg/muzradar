@@ -1,13 +1,22 @@
 import Constants from 'expo-constants';
 
 interface Extra {
+  apiUrl?: string;
   locationGate?: string;
   appVariant?: string;
 }
 
 const extra = (Constants.expoConfig?.extra ?? {}) as Extra;
+const PUBLIC_BASE_URL = process.env.EXPO_PUBLIC_BASE_URL?.replace(/\/+$/, '');
 
-export function resolveWebApiUrl(origin: string | undefined, explicit = process.env.EXPO_PUBLIC_API_URL): string {
+export function assetUrl(base: string | undefined, path: string): string {
+  const prefix = (base ?? '').replace(/\/+$/, '');
+  return `${prefix}${path.startsWith('/') ? path : `/${path}`}`;
+}
+
+export const webAssetUrl = (path: string) => assetUrl(PUBLIC_BASE_URL, path);
+
+export function resolveWebApiUrl(origin: string | undefined, explicit = process.env.EXPO_PUBLIC_API_URL ?? extra.apiUrl): string {
   return (explicit?.trim() || origin || 'http://127.0.0.1:8080').replace(/\/+$/, '');
 }
 
