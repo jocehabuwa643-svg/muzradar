@@ -1,8 +1,10 @@
 const CACHE = 'muzradar-shell-v1';
-const STATIC_PATHS = ['/_expo/static/', '/wasm/', '/models/', '/vendor/'];
+const BASE_PATH = new URL(self.registration.scope).pathname;
+const INDEX_URL = new URL('index.html', self.registration.scope).toString();
+const STATIC_PATHS = ['_expo/static/', 'wasm/', 'models/', 'vendor/'].map((path) => `${BASE_PATH}${path}`);
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE).then((cache) => cache.add('/index.html')).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(CACHE).then((cache) => cache.add(INDEX_URL)).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (event) => {
@@ -19,7 +21,7 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
-  if (url.pathname.startsWith('/v1/') || url.pathname === '/health' || url.pathname === '/sw.js') return;
+  if (url.pathname.startsWith('/v1/') || url.pathname.endsWith('/health') || url.pathname.endsWith('/sw.js')) return;
 
   if (STATIC_PATHS.some((path) => url.pathname.startsWith(path))) {
     event.respondWith(
@@ -39,6 +41,6 @@ self.addEventListener('fetch', (event) => {
   }
 
   if (request.mode === 'navigate') {
-    event.respondWith(fetch(request).catch(() => caches.match('/index.html')));
+    event.respondWith(fetch(request).catch(() => caches.match(INDEX_URL)));
   }
 });
