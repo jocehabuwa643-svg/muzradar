@@ -140,7 +140,7 @@ export function authenticate(force = false): Promise<AccessSession> {
     const hint = getDeviceHint();
     const body: DeviceAuthRequest = {
       installSecret: await getInstallSecret(),
-      platform: Platform.OS === 'ios' ? 'ios' : 'android',
+      platform: Platform.OS === 'ios' ? 'ios' : Platform.OS === 'web' ? 'web' : 'android',
       appVersion: appConfig.appVersion,
       ...(hint ? { deviceHint: hint } : {}),
     };

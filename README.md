@@ -50,6 +50,19 @@ npm run dev:mobile
 
 Адрес API задаётся при сборке/запуске: `EXPO_PUBLIC_API_URL` (по умолчанию `http://10.0.2.2:8080` — так эмулятор Android видит компьютер). Для телефона в той же сети укажите IP компьютера, например `http://192.168.1.20:8080`.
 
+## PWA и HTTPS preview
+
+PWA использует тот же Fastify backend и Socket.IO, что APK. Соберите web и поднимите один HTTPS-адрес:
+
+```bash
+npm run export:web -w @muzradar/mobile
+npm run tunnel:up -- localhost
+```
+
+`localhost` — localhost.run через SSH без аккаунта. Также поддержаны `cloudflare` и `ngrok` (для ngrok нужен свой токен). Скрипт проверяет секреты из `apps/server/.env`, запускает Fastify с PWA и API, проверяет HTTPS `/health` и обновляет `preview.EXPO_PUBLIC_API_URL` в `apps/mobile/eas.json`. PWA открывается по адресу туннеля, API — по `/v1/...`, realtime — по `/v1/realtime`. Остановка: `npm run tunnel:down`.
+
+PWA требует HTTPS для геолокации и камеры. На web используются MapLibre GL и локальная MediaPipe Face Landmarker; галерея не используется. Геолокация — только в foreground, фоновое аудио зависит от браузера. Для обязательного фонового режима нужен APK. Секрет установки PWA хранится в localStorage этого origin: очистка данных сайта может создать новый аккаунт.
+
 ## Флаги сборки
 
 | Переменная | Значения | Смысл |

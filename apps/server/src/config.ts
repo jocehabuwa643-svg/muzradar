@@ -1,3 +1,4 @@
+import { resolve } from 'node:path';
 import { z } from 'zod';
 
 const DEV_SECRET = 'dev-only-secret-do-not-use-in-production-0000';
@@ -18,6 +19,7 @@ const EnvSchema = z
     DATABASE_URL: optionalString,
     PGLITE_DIR: z.string().default('.data/pglite'),
     PGLITE_PORT: z.coerce.number().int().default(54329),
+    PWA_STATIC_DIR: optionalString,
     /** Не задан → присутствие и лимиты в памяти процесса (одна нода). */
     REDIS_URL: optionalString,
 
@@ -65,6 +67,7 @@ export interface Config {
   databaseUrl: string | undefined;
   pgliteDir: string;
   pglitePort: number;
+  pwaStaticDir: string | undefined;
   redisUrl: string | undefined;
   jwtSecret: string;
   presenceJitterSecret: string;
@@ -98,6 +101,7 @@ export function loadConfig(source: Record<string, string | undefined> = process.
     databaseUrl: env.DATABASE_URL,
     pgliteDir: env.PGLITE_DIR,
     pglitePort: env.PGLITE_PORT,
+    pwaStaticDir: env.PWA_STATIC_DIR ? resolve(env.PWA_STATIC_DIR) : undefined,
     redisUrl: env.REDIS_URL,
     jwtSecret: env.JWT_SECRET ?? `${DEV_SECRET}-jwt`,
     presenceJitterSecret: env.PRESENCE_JITTER_SECRET ?? `${DEV_SECRET}-jitter`,

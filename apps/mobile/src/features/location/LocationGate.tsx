@@ -23,6 +23,22 @@ export interface LocationGateCopy {
 /** Тексты для каждого состояния гейта: общие для шага онбординга и экрана-блокировки. */
 export function locationGateCopy(state: LocationGateState, os: string = Platform.OS): LocationGateCopy {
   const ios = os === 'ios';
+  if (os === 'web' && state === 'blocked') {
+    return {
+      title: 'Доступ к геолокации запрещён',
+      reason: 'Разрешите геолокацию в настройках сайта в браузере, затем вернитесь и проверьте снова.',
+      action: 'Проверить снова',
+      icon: 'lock-closed-outline',
+    };
+  }
+  if (os === 'web' && state === 'services_off') {
+    return {
+      title: 'Геолокация недоступна',
+      reason: 'Браузер не смог определить положение. Включите геолокацию устройства и проверьте разрешение для сайта.',
+      action: 'Проверить снова',
+      icon: 'navigate-circle-outline',
+    };
+  }
   switch (state) {
     case 'services_off':
       return {

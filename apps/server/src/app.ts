@@ -13,6 +13,7 @@ import type { CatalogProvider } from './modules/catalog/types.ts';
 import listenModule from './modules/listen/realtime.ts';
 import meRoutes from './modules/me/routes.ts';
 import presenceModule from './modules/presence/routes.ts';
+import pwaRoutes from './modules/pwa/routes.ts';
 import type { PresenceStore } from './modules/presence/store.ts';
 import authPlugin from './plugins/auth.ts';
 import errorsPlugin from './plugins/errors.ts';
@@ -89,6 +90,7 @@ export async function buildApp(deps: AppDeps): Promise<FastifyInstance> {
   });
   await app.register(presenceModule, { prefix: '/v1/presence' });
   await app.register(listenModule);
+  if (config.pwaStaticDir) await app.register(pwaRoutes, { root: config.pwaStaticDir });
 
   return app;
 }

@@ -203,4 +203,16 @@ describe('публикатор присутствия: оба режима че�
     expect(mockedApi.heartbeat).not.toHaveBeenCalled();
     expect(mockedApi.presenceUpdate).not.toHaveBeenCalled();
   });
+
+  it('web: грубый fix публикуется как approx, даже если разрешение не сообщает coarse', async () => {
+    const { Platform } = require('react-native') as typeof import('react-native');
+    const restore = jest.replaceProperty(Platform, 'OS', 'web');
+    mockState.gate = 'ok';
+    useSession.setState({ locationApprox: false });
+    renderHook(() => usePresencePublisher());
+    await confirmMode();
+    fix(2000);
+    expect(sentUpdates().at(-1)).toMatchObject({ approx: true, cell: ZONE });
+    restore.restore();
+  });
 });

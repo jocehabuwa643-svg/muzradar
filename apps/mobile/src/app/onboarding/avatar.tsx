@@ -58,11 +58,12 @@ function CameraPermissionView({ permission, onRequest }: { permission: Permissio
   const [busy, setBusy] = useState(false);
   const { notice } = useStepNotice('avatar');
   const canAsk = permission.canAskAgain;
+  const web = Platform.OS === 'web';
 
   const onPress = async () => {
     setBusy(true);
     try {
-      if (canAsk) await onRequest();
+      if (canAsk || web) await onRequest();
       else await Linking.openSettings();
     } catch (err) {
       console.warn('[avatar] camera permission failed', err);
@@ -76,11 +77,11 @@ function CameraPermissionView({ permission, onRequest }: { permission: Permissio
       scroll
       footer={
         <Button
-          label={canAsk ? 'Разрешить камеру' : 'Открыть настройки'}
+          label={canAsk ? 'Разрешить камеру' : web ? 'Проверить снова' : 'Открыть настройки'}
           icon={canAsk ? 'camera' : 'settings-outline'}
           loading={busy}
           onPress={() => void onPress()}
-          accessibilityHint={canAsk ? 'Откроет системный запрос доступа к камере' : 'Откроет настройки приложения'}
+          accessibilityHint={canAsk || web ? 'Откроет запрос доступа к камере' : 'Откроет настройки приложения'}
           testID="camera-permission-action"
         />
       }
@@ -123,7 +124,9 @@ function CameraPermissionView({ permission, onRequest }: { permission: Permissio
           <Notice tone="warning" title="Доступ к камере запрещён">
             {Platform.OS === 'ios'
               ? 'Откройте Настройки → МУЗРАДАР и включите «Камера».'
-              : 'Откройте настройки → Разрешения → Камера и выберите «Разрешить только во время использования».'}
+              : web
+                ? 'Разрешите камеру в настройках сайта в браузере, затем нажмите «Проверить снова».'
+                : 'Откройте настройки → Разрешения → Камера и выберите «Разрешить только во время использования».'}
           </Notice>
         </Animated.View>
       ) : null}

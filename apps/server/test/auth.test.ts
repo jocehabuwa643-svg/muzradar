@@ -115,6 +115,16 @@ describe('POST /v1/auth/device', () => {
     expect(ios.me.id).not.toBe(android.me.id);
   });
 
+  it('Web: новый секрет без hint создаёт аккаунт и повторно входит в него же', async () => {
+    const installSecret = newInstallSecret();
+    const first = await authDevice(ctx.app, { installSecret, platform: 'web' });
+    const second = await authDevice(ctx.app, { installSecret, platform: 'web' });
+    expect(first.isNew).toBe(true);
+    expect(second).toMatchObject({ isNew: false, restored: false });
+    expect(second.me.id).toBe(first.me.id);
+    expect(await deviceBySecret(installSecret)).toMatchObject({ platform: 'web', hintHmac: null });
+  });
+
   it('deviceHint, похожий на IP, отклоняется схемой', async () => {
     const res = await ctx.app.inject({
       method: 'POST',

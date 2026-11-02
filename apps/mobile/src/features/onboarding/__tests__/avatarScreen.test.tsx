@@ -80,6 +80,21 @@ test('доступ к камере запрещён навсегда — вед�
   openSettings.mockRestore();
 });
 
+test('web: заблокированную камеру повторяем через разрешение сайта, а не Android-настройки', async () => {
+  const { Platform } = require('react-native') as typeof import('react-native');
+  const restore = jest.replaceProperty(Platform, 'OS', 'web');
+  const request = jest.fn(async () => permission({ granted: false, canAskAgain: false }));
+  mockedPermissions.mockReturnValue([permission({ granted: false, canAskAgain: false }), request, jest.fn(async () => undefined)]);
+  renderStep();
+  expect(screen.getByText('Проверить снова')).toBeTruthy();
+  expect(screen.getByText(/настройках сайта/)).toBeTruthy();
+  await act(async () => {
+    fireEvent.press(screen.getByTestId('camera-permission-action'));
+  });
+  expect(request).toHaveBeenCalledTimes(1);
+  restore.restore();
+});
+
 test('разрешение можно запросить — системный запрос', async () => {
   const request = jest.fn(async () => permission({ granted: true, canAskAgain: true }));
   mockedPermissions.mockReturnValue([permission({ granted: false, canAskAgain: true }), request, jest.fn(async () => undefined)]);

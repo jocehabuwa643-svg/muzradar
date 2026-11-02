@@ -54,7 +54,7 @@ export const devices = pgTable(
     secretHash: text('secret_hash').notNull(),
     /** HMAC(pepper, Android ID) — только для восстановления после переустановки. */
     hintHmac: text('hint_hmac'),
-    platform: text('platform', { enum: ['ios', 'android'] }).notNull(),
+    platform: text('platform', { enum: ['ios', 'android', 'web'] }).notNull(),
     appVersion: text('app_version').notNull(),
     /** Последний IP — только антифрод, никогда не опознание. */
     lastIp: text('last_ip'),

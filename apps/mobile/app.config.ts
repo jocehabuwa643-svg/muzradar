@@ -53,6 +53,10 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     icon: './assets/icon.png',
     userInterfaceStyle: 'dark',
     backgroundColor: '#07070C',
+    web: {
+      output: 'single',
+      favicon: './assets/favicon.png',
+    },
     ios: {
       bundleIdentifier: IS_PROD ? 'app.muzradar' : `app.muzradar.${APP_VARIANT}`,
       supportsTablet: false,

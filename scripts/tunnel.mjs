@@ -2,7 +2,9 @@
 //   npm run tunnel:up                                      — Cloudflare quick tunnel: без аккаунта, адрес новый при каждом запуске
 //   npm run tunnel:up -- ngrok                             — ngrok: нужен аккаунт (ngrok config add-authtoken <токен> — делаете сами)
 //   npm run tunnel:up -- ngrok https://имя.ngrok-free.app  — ngrok на постоянном бесплатном домене: APK не пересобирать
+//   npm run tunnel:up -- localhost                         — localhost.run через SSH, без аккаунта, адрес новый при каждом запуске
 //   npm run tunnel:down                                    — остановить сервер и туннель, освободить порты
+// Перед up: npm run export:web -w @muzradar/mobile, если PWA ещё не собрана или изменилась.
 // После успешного up адрес вписывается в apps/mobile/eas.json → build.preview.env.EXPO_PUBLIC_API_URL.
 import { execFileSync, spawn } from 'node:child_process';
 import { existsSync, mkdirSync, openSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
@@ -20,6 +22,7 @@ const SERVER_LOG = join(DIR, 'server.log');
 const TUNNEL_LOG = join(DIR, 'tunnel.log');
 const SERVER_ENV = join(ROOT, 'apps', 'server', '.env');
 const EAS = join(ROOT, 'apps', 'mobile', 'eas.json');
+const PWA_DIR = join(ROOT, 'apps', 'mobile', 'dist');
 const IS_WIN = process.platform === 'win32';
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -147,7 +150,11 @@ const PROVIDERS = {
   },
   ngrok: {
     label: 'ngrok',
-    binary: () => findBinary('ngrok', [join(process.env.LOCALAPPDATA ?? '', 'Microsoft', 'WinGet', 'Links', 'ngrok.exe')]),
+    binary: () =>
+      findBinary('ngrok', [
+        join(process.env.LOCALAPPDATA ?? '', 'Microsoft', 'WinGet', 'Links', 'ngrok.exe'),
+        join(process.env.LOCALAPPDATA ?? '', 'Microsoft', 'WinGet', 'Packages', 'Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe', 'ngrok.exe'),
+      ]),
     // в winget лежит старый агент — `ngrok update` доводит его до актуального
     install: 'winget install --id Ngrok.Ngrok -e, затем ngrok update',
     // --domain понимают и старые, и новые агенты (в новых есть синоним --url)
@@ -177,6 +184,31 @@ const PROVIDERS = {
       if (!url) throw new Error(`ngrok не выдал адрес за 60 с. Лог:\n${tail(TUNNEL_LOG)}`);
       if (fixedUrl && url.replace(/\/+$/, '') !== fixedUrl) throw new Error(`ngrok выдал ${url}, а просили ${fixedUrl}`);
       return url.replace(/\/+$/, '');
+    },
+  },
+  localhost: {
+    label: 'localhost.run',
+    binary: () => findBinary('ssh', [join(process.env.SystemRoot ?? '', 'System32', 'OpenSSH', 'ssh.exe')]),
+    install: 'Windows OpenSSH Client (обычно уже встроен)',
+    args: () => [
+      '-o',
+      'StrictHostKeyChecking=no',
+      '-o',
+      'UserKnownHostsFile=/dev/null',
+      '-o',
+      'ServerAliveInterval=30',
+      '-R',
+      `80:127.0.0.1:${PORT}`,
+      'nokey@localhost.run',
+    ],
+    stable: false,
+    async publicUrl(tunnelPid) {
+      const url = await waitFor(() => {
+        if (!alive(tunnelPid)) throw new Error(`localhost.run завершился. Лог:\n${tail(TUNNEL_LOG)}`);
+        return readLog(TUNNEL_LOG).match(/https:\/\/[a-z0-9]+\.lhr\.life/)?.[0];
+      }, 60_000);
+      if (!url) throw new Error(`localhost.run не выдал адрес за 60 с. Лог:\n${tail(TUNNEL_LOG)}`);
+      return url;
     },
   },
 };
@@ -243,6 +275,8 @@ async function up(providerName = 'cloudflare', fixedUrl) {
   mkdirSync(DIR, { recursive: true });
   writeFileSync(SERVER_LOG, '');
   writeFileSync(TUNNEL_LOG, '');
+  if (existsSync(join(PWA_DIR, 'index.html'))) process.env['PWA_STATIC_DIR'] = PWA_DIR;
+  else console.warn('PWA не собрана: сначала выполните npm run export:web -w @muzradar/mobile. Туннель поднимет только API.');
   // То же, что `npm run dev:server`, но без прослойки cmd → npm: через неё вывод сервера не доходил до лога.
   const serverPid = spawnDetached(
     process.execPath,
@@ -303,7 +337,7 @@ try {
   if (command === 'up') await up(providerName, fixedUrl);
   else if (command === 'down') down();
   else {
-    console.log('Использование: node scripts/tunnel.mjs up [cloudflare|ngrok [https://имя.ngrok-free.app]] | down');
+    console.log('Использование: node scripts/tunnel.mjs up [cloudflare|ngrok [https://имя.ngrok-free.app]|localhost] | down');
     process.exitCode = 2;
   }
 } catch (err) {

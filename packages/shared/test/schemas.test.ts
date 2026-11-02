@@ -35,6 +35,9 @@ describe('DeviceAuthRequest', () => {
   it('never accepts an IP as a device hint', () => {
     expect(DeviceAuthRequest.safeParse({ ...ok, deviceHint: '192.168.0.1' }).success).toBe(false);
   });
+  it('accepts a browser without a device hint', () => {
+    expect(DeviceAuthRequest.safeParse({ installSecret: 'A'.repeat(43), platform: 'web', appVersion: '1.0.0' }).success).toBe(true);
+  });
 });
 
 describe('ConsentsInput', () => {

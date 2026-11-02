@@ -24,7 +24,7 @@ const RESOLVE_PARALLEL = 2;
  * Сколько после поиска ждём метаданные альбомов. Один медленный /metadata (замерено до 1,8 с)
  * не должен обнулять весь ответ: что успело — отдаём, остальное выпадает.
  */
-export const ARCHIVE_METADATA_PHASE_MS = 2_000;
+export const ARCHIVE_METADATA_PHASE_MS = 4_000;
 
 const firstString = z
   .union([z.string(), z.number(), z.array(z.union([z.string(), z.number()]))])

@@ -30,7 +30,7 @@ export function birthYearBounds(now = new Date()) {
 
 // ─── аутентификация устройства ───────────────────────────────────────────────
 
-export const Platform = z.enum(['ios', 'android']);
+export const Platform = z.enum(['ios', 'android', 'web']);
 export type Platform = z.infer<typeof Platform>;
 
 /**

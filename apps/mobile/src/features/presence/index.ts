@@ -1,7 +1,7 @@
 import { PRESENCE, type PresenceUpdate } from '@muzradar/shared';
 import * as Location from 'expo-location';
 import { useEffect, useSyncExternalStore } from 'react';
-import { AppState } from 'react-native';
+import { AppState, Platform } from 'react-native';
 import { readLocationGate, useLocationGate } from '@/features/location/gate';
 import { getNowPlaying, subscribeNowPlaying, useNowPlaying } from '@/features/player';
 import { api } from '@/lib/api';
@@ -79,7 +79,9 @@ function startWatching(): () => void {
     { accuracy: Location.Accuracy.Balanced, distanceInterval: 25, timeInterval: 10_000 },
     (loc) => {
       if (stopped) return;
-      const { next, changed } = applyFix(getFixState(), loc.coords, useSession.getState().locationApprox);
+      const approx = Platform.OS === 'web' ? (loc.coords.accuracy ?? 0) > 500 : useSession.getState().locationApprox;
+      if (Platform.OS === 'web') useSession.getState().setLocation(true, approx);
+      const { next, changed } = applyFix(getFixState(), loc.coords, approx);
       setFixState(next);
       if (changed) publish();
     },

@@ -13,7 +13,7 @@ import { audiusPlayback, AudiusProvider, isLikelyPirated, type AudiusTrack } fro
 import { commonsAudioUrl, commonsLicenseOk, CommonsProvider } from '../src/modules/catalog/providers/commons.ts';
 import { JamendoProvider } from '../src/modules/catalog/providers/jamendo.ts';
 import type { ProviderQuery } from '../src/modules/catalog/types.ts';
-import { fixture, hang, openSignal, testHttp } from './fixtures/catalog/harness.ts';
+import { fixture, hang, jsonResponse, openSignal, testHttp } from './fixtures/catalog/harness.ts';
 
 const q = (partial: Partial<ProviderQuery> = {}): ProviderQuery => ({ limit: 20, ...partial });
 
@@ -300,6 +300,27 @@ describe('Internet Archive', () => {
     expect(Date.now() - started).toBeLessThan(1_500);
     expect(tracks.length).toBeGreaterThan(0);
     expect(tracks.every((t) => t.id.startsWith('archive:ca015_va_cs/'))).toBe(true);
+  });
+
+  it('медленные метаданные до 4 секунд не обнуляют русский раздел', async () => {
+    const { http } = testHttp(
+      [
+        { match: 'advancedsearch.php', body: fixture('archive-search') },
+        {
+          match: '/metadata/ca015_va_cs',
+          handler: async (_url, init) => {
+            await new Promise((resolve) => setTimeout(resolve, 2_500));
+            if (init?.signal?.aborted) throw init.signal.reason;
+            return jsonResponse(fixture('archive-metadata-ca015'));
+          },
+        },
+        { match: '/metadata/', handler: hang },
+      ],
+      { timeoutMs: 5_000 },
+    );
+    const p = new ArchiveProvider({ http });
+    const tracks = await p.search(q({ language: 'ru', sort: 'popular' }), openSignal());
+    expect(tracks.length).toBeGreaterThan(0);
   });
 
   it('id со слэшем разбирается обратно в идентификатор и имя файла', async () => {
