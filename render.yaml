@@ -1,0 +1,32 @@
+# Render Blueprints: server + PWA static на бесплатном тарифе.
+services:
+  - type: web
+    name: muzradar-server
+    runtime: node
+    plan: free
+    region: frankfurt
+    repo: https://github.com/jocehabuwa643-svg/muzradar
+    branch: preview
+    buildCommand: npm ci --no-audit --no-fund && npm run build -w @muzradar/shared && npm run build -w @muzradar/server
+    startCommand: node apps/server/dist/index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: LOG_LEVEL
+        value: info
+      - key: ASSETS_BASE_URL
+        value: ""
+      # Секреты в Render, не в репо
+      - key: JWT_SECRET
+        generateValue: true
+      - key: PRESENCE_JITTER_SECRET
+        generateValue: true
+      - key: ANDROID_ID_PEPPER
+        generateValue: true
+      # База — внешний Neon; задаётся в Render
+      - key: DATABASE_URL
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
