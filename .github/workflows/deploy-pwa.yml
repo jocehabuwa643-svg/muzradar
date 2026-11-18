@@ -32,6 +32,7 @@ jobs:
         env:
           APP_VARIANT: production
           EXPO_PUBLIC_API_URL: ${{ vars.PUBLIC_API_URL }}
+          EXPO_PUBLIC_BASE_URL: /muzradar
         run: npm run export:web -w @muzradar/mobile
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
